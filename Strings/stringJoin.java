@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class strinJoin {
+public class stringJoin {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
