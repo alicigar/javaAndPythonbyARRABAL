@@ -24,12 +24,12 @@ public class AlumnoDAO {
 
         do {
             System.out.println("\n MENÚ CRUD - ALUMNOS");
-            System.out.println("1. Mostrar todos los alumnos");
-            System.out.println("2. Insertar un nuevo alumno");
-            System.out.println("3. Actualizar el nombre de un alumno por ID");
-            System.out.println("4. Eliminar un alumno por ID");
+            System.out.println("1. Agregar nuevo alumno");
+            System.out.println("2. Mostrar todos los alumnos");
+            System.out.println("3. Actualizar alumno por ID");
+            System.out.println("4. Eliminar un alumno");
             System.out.println("5. Salir");
-            System.out.print("Selecciona una opción: ");
+            System.out.print("Elija una opción: ");
             opcion = scanner.nextInt();
             scanner.nextLine(); 
 
