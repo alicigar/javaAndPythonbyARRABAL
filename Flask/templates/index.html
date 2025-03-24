@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alicigar's database</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Datos de la Base de Datos</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Curso</th>
+        </tr>
+        {% for fila in datos %}
+        <tr>
+            <td>{{ fila[0] }}</td>
+            <td>{{ fila[1] }}</td>
+            <td>{{ fila[2] }}</td>
+            <td>{{ fila[3] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
